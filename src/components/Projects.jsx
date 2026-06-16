@@ -1,30 +1,26 @@
-import React from "react";
-import JavaScriptMytra from "../assets/mytra.png";
-import IGloader from "../assets/burger.png";
-import Restaurant from "../assets/resturarnt.png";
+
 
 const projects = [
   {
     id: 1,
-    name: "Myntra Functional Clone",
-    technologies: "JavaScript",
-    image: JavaScriptMytra,
-    github:
-      "https://github.com/shaikh-zaiid/JavaScript-Myntra-Functional-Clone.git",
+    name: "Predicting Power Outages",
+    technologies: "SQL, Python, ETL, Machine Learning",
+    image: "https://via.placeholder.com/400x300",
+    github: "https://github.com/Harsh-debug04",
   },
   {
     id: 2,
-    name: "Food Delivery",
-    technologies: "React JS",
-    image: IGloader,
-    github: "https://github.com/shaikh-zaiid/React-Food-Delivery.git",
+    name: "Interpretable Disease Diagnosis",
+    technologies: "SHAP, LIME, ML Classifier",
+    image: "https://via.placeholder.com/400x300",
+    github: "https://github.com/Harsh-debug04",
   },
   {
-    id: 2,
-    name: "Responsive Restaurant",
-    technologies: "React JS",
-    image: Restaurant,
-    github: "https://github.com/shaikh-zaiid/React-Restaurant",
+    id: 3,
+    name: "Population Density Estimation",
+    technologies: "CNN, Computer Vision, Satellite Imagery",
+    image: "https://via.placeholder.com/400x300",
+    github: "https://github.com/Harsh-debug04",
   },
 ];
 
