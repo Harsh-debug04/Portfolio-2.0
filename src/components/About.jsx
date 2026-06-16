@@ -1,5 +1,4 @@
-import React from "react";
-import AboutImage from "../assets/image.jpg";
+
 
 const About = () => {
   return (
@@ -8,23 +7,19 @@ const About = () => {
         <h2 className="text-4xl font-bold text-center mb-12">About Me</h2>
         <div className="flex flex-col md:flex-row items-center md:space-x-12">
           <img
-            src={AboutImage}
+            src="https://via.placeholder.com/300x320"
             alt=""
             className="w-72 h-80 rounded object-cover mb-8 md:mb-0"
           />
           <div className="flex-1">
             <p className="text-lg mb-8">
-              I am looking for a challenging role in the IT sector that offers
-              opportunities for ongoing learning and career progression. My aim
-              is to remain adaptable in a rapidly changing environment, using my
-              skills to contribute to innovative solutions and achieve both
-              personal and organizational success.
+              Smart India Hackathon National Finalist and final-year CS engineer who has fine-tuned LLMs in production, built end-to-end data pipelines, and shipped a blockchain audit trail at Deloitte. Seeking a data engineering role to apply my background in ETL systems, SQL-backed data modeling, and AI to scalable, real-world infrastructure.
             </p>
 
             <div className="space-y-4">
               <div className="flex items-center">
                 <label htmlFor="htmlandcss" className="w-2/12">
-                  HTML & CSS
+                  Python
                 </label>
                 <div className="grow bg-gray-800 rounded-full h-2.5">
                   <div
@@ -36,7 +31,7 @@ const About = () => {
 
               <div className="flex items-center">
                 <label htmlFor="htmlandcss" className="w-2/12">
-                  Javescript
+                  SQL
                 </label>
                 <div className="grow bg-gray-800 rounded-full h-2.5">
                   <div
@@ -48,7 +43,7 @@ const About = () => {
 
               <div className="flex items-center">
                 <label htmlFor="htmlandcss" className="w-2/12">
-                  React JS
+                  C++
                 </label>
                 <div className="grow bg-gray-800 rounded-full h-2.5">
                   <div
@@ -60,7 +55,7 @@ const About = () => {
 
               <div className="flex items-center">
                 <label htmlFor="htmlandcss" className="w-2/12">
-                  UI/UX
+                  Data Engineering
                 </label>
                 <div className="grow bg-gray-800 rounded-full h-2.5">
                   <div
@@ -72,7 +67,7 @@ const About = () => {
 
               <div className="flex items-center">
                 <label htmlFor="htmlandcss" className="w-2/12">
-                  Wordpress
+                  AI/ML
                 </label>
                 <div className="grow bg-gray-800 rounded-full h-2.5">
                   <div
@@ -84,7 +79,7 @@ const About = () => {
 
               <div className="flex items-center">
                 <label htmlFor="htmlandcss" className="w-2/12">
-                  Git
+                  PostgreSQL
                 </label>
                 <div className="grow bg-gray-800 rounded-full h-2.5">
                   <div
@@ -96,7 +91,7 @@ const About = () => {
 
               <div className="flex items-center">
                 <label htmlFor="htmlandcss" className="w-2/12">
-                  Bootstrap
+                  Power BI
                 </label>
                 <div className="grow bg-gray-800 rounded-full h-2.5">
                   <div
@@ -108,7 +103,7 @@ const About = () => {
 
               <div className="flex items-center">
                 <label htmlFor="htmlandcss" className="w-2/12">
-                  Figma
+                  Git
                 </label>
                 <div className="grow bg-gray-800 rounded-full h-2.5">
                   <div
@@ -120,7 +115,7 @@ const About = () => {
 
               <div className="flex items-center">
                 <label htmlFor="htmlandcss" className="w-2/12">
-                  SEO
+                  Docker / Cloud
                 </label>
                 <div className="grow bg-gray-800 rounded-full h-2.5">
                   <div

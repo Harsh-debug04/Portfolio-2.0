@@ -1,42 +1,42 @@
-import React from "react";
+
 import Education from "./Education";
 
 const services = [
   {
     id: 1,
-    title: "Introduction to HTML5",
-    description: "Grade Achieved: 97.66%",
-    ReadMore: "https://coursera.org/share/39de26dd2999cae9ee4c125b25306888",
+    title: "AgriCart Farmtech",
+    description: "Full Stack and AI Developer. Fine-tuned domain-specific LLMs on 8 GB of structured agricultural datasets.",
+    ReadMore: "#",
   },
   {
     id: 2,
-    title: "Interactivity with JavaScript",
-    description: "Grade Achieved: 97.12%",
-    ReadMore: "https://coursera.org/share/b29e06429ccae4ee8d8fa8815e1b171d",
+    title: "Deloitte (Capstone)",
+    description: "Blockchain Developer. Designed a blockchain-powered audit trail system using fact-and-dimension data modeling.",
+    ReadMore: "#",
   },
   {
     id: 3,
-    title: "Networking Fundamentals",
-    description: "Grade Achieved: 82.50%",
-    ReadMore: "https://coursera.org/share/d3585933a087dbd37d314e252d099e1a",
+    title: "IIT Roorkee (SPARK)",
+    description: "Research Intern. Analysed 5 years of environmental datasets across 4 sustainability indicators.",
+    ReadMore: "#",
   },
   {
     id: 4,
-    title: "Data Visualization and Communication with Tableau",
-    description: "Grade Achieved: 92.98%.",
-    ReadMore: "https://coursera.org/share/36235915fd1425436bd11bb3a320c6d2",
+    title: "Smart India Hackathon",
+    description: "National Finalist, ranked among top teams from 1,000+ submissions nationwide.",
+    ReadMore: "#",
   },
   {
     id: 5,
-    title: "C for Everyone: Structured Programming",
-    description: "Grade Achieved: 97.50%",
-    ReadMore: "https://coursera.org/share/c2762c947da112a89adc9690a24b9b52",
+    title: "IEEE Hackathon",
+    description: "Finalist; recognised for innovative application of AI to real-world infrastructure challenges.",
+    ReadMore: "#",
   },
   {
     id: 6,
-    title: "Foundations of User Experience (UX) Design",
-    description: "Grade Achieved: 91.11%.",
-    ReadMore: "https://coursera.org/share/4dc95c8d580b67c9ab493ba58316c8bb",
+    title: "Deloitte Capstone",
+    description: "Finalist; selected among top performers for a blockchain supply chain solution.",
+    ReadMore: "#",
   },
 ];
 const Service = () => {
@@ -44,7 +44,7 @@ const Service = () => {
     <div className="bg-black text-white py-20" id="service">
       <Education />
       <div className="container mx-auto px-8 md:px-16 lg:px-24">
-        <h2 className="text-4xl font-bold text-center mb-12">My Certificate</h2>
+        <h2 className="text-4xl font-bold text-center mb-12">Experience & Achievements</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service) => (
             <div

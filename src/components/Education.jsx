@@ -1,24 +1,11 @@
-import React from "react";
+
 
 const projects = [
   {
     id: 1,
-    name: "Cosmos Castle International School 2018-2019 SSC 60%",
-    technologies:
-      "Completed the SSC from Gujarat Secondary and Higher Secondary Education Board in 2019.",
-  },
-  {
-    id: 2,
-    name: "Jeet School Of Winners 2020-2021 HSC 60%",
-    technologies:
-      "Completed the HSC from Gujarat Secondary and Higher Secondary Education Board in 2021.",
-  },
-  {
-    id: 3,
-    name: "Lok Jagruti kendra university BCA 2021-2024",
-    technologies:
-      "Completed the  BCA(Bachelor of Computer Applications) from Lok Jagruti kendra university 2021-2024",
-  },
+    name: "Manipal University Jaipur 2022-2026",
+    technologies: "B.Tech — Computer Science Engineering (Expected 2026).",
+  }
 ];
 
 const Projects = () => {

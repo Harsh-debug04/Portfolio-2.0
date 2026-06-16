@@ -1,5 +1,5 @@
-import React from "react";
-import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
+
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -37,26 +37,21 @@ const Footer = () => {
           justify-between items-center"
         >
           <p className="text-gray-400">
-            &copy; {new Date().getFullYear()} Zaid. All rights reserved.
+            &copy; {new Date().getFullYear()} Harshwardhan Pandey. All rights reserved.
           </p>
 
           <div className="flex space-x-4 my-4 md:my-0">
-            <a
-              href="https://www.instagram.com/zaiid__1317?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
-              className="text-gray-400 hover:text-white"
-            >
-              <FaInstagram />
-            </a>
+
 
             <a
-              href="https://www.linkedin.com/in/shaikh-zaid-581669226"
+              href="#"
               className="text-gray-400 hover:text-white"
             >
               <FaLinkedin />
             </a>
 
             <a
-              href="https://github.com/shaikh-zaiid"
+              href="https://github.com/Harsh-debug04"
               className="text-gray-400 hover:text-white"
             >
               <FaGithub />
